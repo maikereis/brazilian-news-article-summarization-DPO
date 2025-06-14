@@ -20,7 +20,7 @@ This format supports training models using DPO, PPO/RLHF, or reward modeling app
 
 ## Example Sample
 
-Each entry in the JSONL looks like this:
+Each entry in the dataset looks like this:
 
 ```json
 {
