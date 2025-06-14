@@ -4,6 +4,8 @@ This repository contains the dataset and code for the **Brazilian News Article S
 
 The dataset is publicly available on [**Hugging Face**](https://huggingface.co/datasets/maikerdr/brazilian-news-article-summarization-DPO)
 
+The data was scraped from major Brazilian [**news portals**](sources.yml) on different dates.
+
 ## Dataset Overview
 
 This dataset contains human preference data for pairs of Brazilian Portuguese news summaries. It adopts a DPO format, where each sample includes:
@@ -73,3 +75,13 @@ Ideal for:
 
 Direct Preference Optimization (DPO) trains models by focusing directly on human preferences without the need for complex reward models or reinforcement learning
 
+## Citation
+
+If you use this dataset, please cite:
+
+@misc{maikerdr2024brazilian,
+  title={Brazilian News Article Summarization DPO},
+  author={Maike Reis},
+  year={2024},
+  howpublished={\url{https://huggingface.co/datasets/maikerdr/brazilian-news-article-summarization-DPO}}
+}
